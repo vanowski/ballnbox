@@ -1,0 +1,58 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+main {
+    margin: 10px 20px;
+}
+
+input {
+    width: 50px;
+    border: 0;
+    border-bottom: 1px solid silver;
+    font-size: 24px;
+}
+
+button {
+    font-size: 24px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.row {
+    width: 100%;
+    padding: 20px 0 20px;
+}
+    .row:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+
+.col {
+    width: calc(100% / 6);
+    height: 100%;
+    min-height: 1px;
+    float: left;
+}
+    .col_r {
+        float: right;
+    }
+
+canvas {
+    border: 1px solid silver;
+}
+
+label {
+
+}
