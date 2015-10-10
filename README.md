@@ -1,5 +1,3 @@
-# ballnbox
-Test job on HTML Canvas.
-
-![Screenshot](https://dl.dropbox.com/s/oln2rtxask92wpn/screenshot.png)
+# Physics on HTML canvas
+A little test job for some game development company. I failed the interview anyway.
 
